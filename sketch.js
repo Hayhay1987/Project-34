@@ -138,7 +138,7 @@ function draw()
       step2.shapeColor = "yellow"
     }
 
-    if (frameCount % 20 == 220) {
+    if (frameCount % 20 == 0) {
       Body.applyForce(obstacle, {x: 0, y:0}, {x: random(-2.5, 2.5), y: random(-2.5, 2.5)})
     }
 
